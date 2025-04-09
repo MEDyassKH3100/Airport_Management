@@ -1,12 +1,15 @@
 # Airport_Management
 Application de gestion des activités d'un aéroport implémentant les principes de la POO, LINQ, et Entity Framework Core.
 ## 📦 Structure du Projet
-AirportManagement/
-├── AM.Core.Domain/ # Modèles (Passenger, Flight, Plane...)
-├── AM.Core.Services/ # Services métier (FlightService...)
-├── AM.Data/ # Persistance (EF Core, DbContext, Configurations)
-└── AM.ULConsole/ # Interface Console
+📦 AirportManagement/
 
+├── 📁 AM.Core.Domain/ # Modèles (Passenger, Flight, Plane...)
+
+├── 📁 AM.Core.Services/ # Services métier (FlightService, IFlightService)
+
+├── 📁 AM.Data/ # Persistance (EF Core, DbContext, Configurations)
+
+└── 📁 AM.ULConsole/ # Interface Console (Program.cs)
 ## 🛠 Technologies
 - .NET 6
 - Entity Framework Core 6.0.9
